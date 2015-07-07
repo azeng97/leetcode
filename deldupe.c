@@ -4,7 +4,7 @@
 struct ListNode* deleteDuplicates(struct ListNode* head) {
     struct ListNode* current;
     if (head!=NULL && head->next!= NULL){
-    	while (head->val == head->next->val){
+    	while (head ->next!= NULL && head->val == head->next->val){
     		head->next = head->next->next;
     	}
     	current = head;

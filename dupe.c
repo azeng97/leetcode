@@ -10,7 +10,7 @@ bool containsDuplicate(int* nums, int numsSize) {
     int y = 1;
     while (x<numsSize){
     	while (y<numsSize){
-    		if (x==y){
+    		if (nums[x]==nums[y]){
     			return true;
     		} else {
     			y++;

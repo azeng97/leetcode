@@ -1,4 +1,4 @@
-//returns whether array contains duplicates
+//returns whether array contains nearby duplicates
 //by Avan
 
 #include <stdio.h>
